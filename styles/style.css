@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: auto;
+    display: grid;
+    max-width: 800px;
+    font-family: 'Source Sans Pro', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+}
+
+header, footer {
+    background-color: lavender;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+header {
+    display: inline-flex;
+}
+
+footer {
+    display: block;
+}
+
+main {
+    margin: 30px;
+    justify-self: center;
+    display: block;
+    font-size: .9em;
+}
+
+.header-el {
+    margin: 40px;
+}
+
+header img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+header h2{
+    font-size: 2em;
+    align-self: center;
+}
