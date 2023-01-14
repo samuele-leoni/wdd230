@@ -1,0 +1,11 @@
+@media only screen and (min-width: 50.8em) {
+    header, footer {
+        border-radius: 5px;
+    }
+    body {
+        font-size: 18pt;
+    }
+    main {
+        font-size: .8em;
+    }
+}
