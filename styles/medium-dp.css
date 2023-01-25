@@ -1,8 +1,0 @@
-@media only screen and (min-width: 50.8em) {
-    header, footer {
-        border-radius: 5px;
-    }
-    main {
-        grid-template-columns: 1fr 1fr;
-    }
-}
