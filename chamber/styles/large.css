@@ -1,0 +1,60 @@
+@media only screen and (min-width: 68em) {
+    nav {
+        display: flex;
+    
+        margin-top: 30px;
+        margin-left: 80px;
+        align-self: flex-start;
+        border-radius: 5px;
+    }
+
+    body {
+        margin: auto;
+        max-width: 1000px;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin:auto;
+        grid-template-rows: repeat(3, 270px);
+    }
+
+    nav a:hover {
+        border-radius: 5px;
+    }
+    
+    #navShow {
+        display: none;
+    }
+
+    #hero {
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+
+    #news {
+        grid-column: 2/4;
+        grid-row: 3/3;
+    }
+
+    #spotlight {
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: repeat(3, 290px);
+        grid-column: 4/4;
+        grid-row: 1/4;
+    }
+
+    #spotlight3 {
+        display: block;
+    }
+
+    #join {
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+
+    #event {
+        grid-column: 1/1;
+    }
+}

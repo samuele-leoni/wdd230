@@ -10,7 +10,7 @@ header {
     grid-template-columns: 1fr 2fr;
 }
 
-.header h1 {
+header h1 {
     margin-left: 10px;
     font-size: 1.7em;
 }

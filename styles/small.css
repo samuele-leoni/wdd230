@@ -48,14 +48,12 @@ main {
 
 .header-el {
     margin: 40px;
+    
+    font-size: 2em;
+    align-self: center;
 }
 
 header img {
     max-width: 200px;
     border-radius: 5px;
-}
-
-header h2{
-    font-size: 2em;
-    align-self: center;
 }
