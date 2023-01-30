@@ -22,14 +22,29 @@ header, footer {
     color: #171813;
 }
 
+.pipe {
+    display: none;
+}
+
+#footer {
+    margin: 50px;
+}
+
 footer {
     margin-top: 80px;
     display: block;
 }
 
-header {
+.header {
     display: flex;
-    margin-bottom: 20px;
+    width: fit-content;
+    margin:auto;
+}
+
+header {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -100,17 +115,16 @@ main section, #spotlight {
     grid-row: 5/7;
 }
 
-
 main {
+    margin-top: 50px;
     justify-self: center;
+    align-self: center;
     display: grid;
     gap: 60px;
     width: 90%;
-    align-self: center;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 270px);
     font-size: .9em;
-    margin:auto;
 }
 
 #spotlight {

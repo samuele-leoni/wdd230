@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="../scripts/date.js"></script>
     <script type="text/javascript" src="scripts/script.js"></script>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -16,27 +15,25 @@
 
 <body>
     <header>
-        <img id="logo" src="images/logo.jpeg" alt="Milan Chamber of Commerce Logo">
-        <div>
-            <h1>Milan</h1>
-            <h2>Chamber of Commerce</h2>
+        <div class="header">
+            <img id="logo" src="images/logo.jpeg" alt="Milan Chamber of Commerce Logo">
+            <div>
+                <h1>Milan</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+    
+            <button id="navShow"><img src="images/Hamburger_icon.svg" alt="hamburger menu icon"></button>
         </div>
-
-        <button id="navShow"><img src="images/Hamburger_icon.svg" alt="hamburger menu icon"></button>
-
-        </button>
-
-        <nav>
-            <a href="./">Discover</a>
-            <a href="#">Directory</a>
-            <a href="#">Join</a>
-            <a href="#">Contact</a>
-        </nav>
-
-        <p id="dateNow">
-
-        </p>
+        <span id="dateNow"></span>
+        
     </header>
+    <nav>
+        <a href="./">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+        <a href="#">Contact</a>
+    </nav>
+
     <main>
         <section id="hero">
             <p>Hero with site name and call to action</p>
@@ -66,30 +63,28 @@
         </div>
     </main>
     <footer>
-        <img id="logo" src="images/logo.jpeg" alt="Milan Chamber of Commerce Logo">
-        <h2>
-            Milan Chamber of Commerce
-        </h2>
-        <h3>
-            Via Larga 123<br>Milan, Italy 20100
-        </h3>
-        <a href="mailto:info@milancc.org"><h3>info@milancc.org</h3></a>
-        <h3>
-            +(39) 333 1234 5678
-        </h3>
-        <h3>
-            Location Map
-        </h3>
-        <hr>
-        <p>
-            &copy; <span id="yearCopy"></span> Milan Chamber of Commerce
-        </p>
-        <p>
-            WDD 230 Project
-        </p>
-        <p>
-            Last updated: <span id="lastMod"></span>
-        </p>
+        <div id="footer">
+            <img id="logo" src="images/logo.jpeg" alt="Milan Chamber of Commerce Logo">
+            <h2>
+                Milan Chamber of Commerce
+            </h2>
+            <h3>
+                Via Larga 123<br>Milan, Italy 20100
+            </h3>
+            <a href="mailto:info@milancc.org"><h3>info@milancc.org</h3></a>
+            <h3>
+                +(39) 333 1234 5678
+            </h3>
+            <h3>
+                Location Map
+            </h3>
+            <hr>
+            <section id="small">
+                <p>
+                    &copy; <span id="yearCopy"></span> Milan Chamber of Commerce | WDD 230 Project | Last updated: <span id="lastMod"></span>
+                </p>
+            </section>
+        </div>
     </footer>
 </body>
 
