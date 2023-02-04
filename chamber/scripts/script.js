@@ -37,7 +37,13 @@ window.onload = function () {
       button.removeEventListener("click", toggleNav);
     }
   });
+
   let oLastModif = new Date(document.lastModified);
   document.getElementById("lastMod").innerHTML = oLastModif.toUTCString();
   document.getElementById("yearCopy").innerHTML = oLastModif.getFullYear();
+
+  if(now.getDay() == 1 || now.getDay() == 2)
+  {
+    document.getElementById("joinUsMessage").style.display = "block";
+  }
 };

@@ -1,155 +1,176 @@
 #logo {
-    width: 215px;
-    height: 100px;
+  width: 215px;
+  height: 100px;
 }
 
 body {
-    display: grid;
-    font-family: 'Source Sans Pro', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15pt;
+  display: grid;
+  font-family: "Source Sans Pro", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15pt;
 }
 
-h1, h2, h3, nav div a {
-    font-size: 25pt;
-    font-family: Cabin, Calibri, 'Trebuchet MS', sans-serif;
+h1,
+h2,
+h3,
+nav div a {
+  font-size: 25pt;
+  font-family: Cabin, Calibri, "Trebuchet MS", sans-serif;
 }
 
-header, footer {
-    width: 100%;
-    background-color: #D1D1C9;
-    align-content: center;
-    justify-content: center;
-    color: #171813;
+header,
+footer {
+  width: 100%;
+  background-color: #d1d1c9;
+  align-content: center;
+  justify-content: center;
+  color: #171813;
 }
 
 .pipe {
-    display: none;
+  display: none;
 }
 
 #footer {
-    margin: 50px;
+  margin: 50px;
 }
 
 footer {
-    margin-top: 80px;
-    display: block;
+  margin-top: 80px;
+  display: block;
 }
 
 .header {
-    display: flex;
-    width: fit-content;
-    margin:auto;
+  display: flex;
+  width: fit-content;
+  margin: auto;
 }
 
 header {
-    display: block;
-    text-align: center;
-    padding-bottom: 10px;
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 h1 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 header h2 {
-    margin-top: -15px;
+  margin-top: -15px;
 }
 
 h2 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
-h3, p {
-    font-size: .8em;
+h3,
+p {
+  font-size: 0.8em;
 }
 
 footer a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
-footer a:hover { 
-    text-decoration: none; 
+footer a:hover {
+  text-decoration: none;
 }
 
-a:active { 
-    text-decoration: none; 
+a:active {
+  text-decoration: none;
 }
 
 #navShow {
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-left: 20px;
-    align-self: flex-start;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 15%;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 20px;
+  align-self: flex-start;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15%;
 }
 
-#navShow, nav {
-    background-color: #36454f;
+#navShow,
+nav,
+#joinUsMessage {
+  background-color: #36454f;
 }
 
 nav {
-    display: none;
-    text-align: center;
+  display: none;
+  text-align: center;
 }
 
 nav div {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 #join {
-    display: none;
+  display: none;
 }
 
-main section, #spotlight {
-    background-color: #EAE7E2;
-    border: #36454f81 1px solid;
-    width: 100%;
-    border-radius: 1%;
-    height: 100%;
+main section,
+#spotlight {
+  background-color: #eae7e2;
+  border: #36454f81 1px solid;
+  width: 100%;
+  border-radius: 1%;
+  height: 100%;
 }
 
 #spotlight {
-    display: block;
-    grid-row: 5/7;
+  display: block;
+  grid-row: 5/7;
 }
 
 main {
-    margin-top: 50px;
-    justify-self: center;
-    align-self: center;
-    display: grid;
-    gap: 60px;
-    width: 90%;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 270px);
-    font-size: .9em;
+  margin-top: 50px;
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  gap: 60px;
+  width: 90%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 270px);
+  font-size: 0.9em;
 }
 
 #spotlight {
-    display: grid;
-    grid-template-columns: 95%;
-    justify-content: center;
-    align-content: center;
-    grid-template-rows: repeat(2, 270px);
-    gap: 20px;
-    background-color: #EAE7E2;
+  display: grid;
+  grid-template-columns: 95%;
+  justify-content: center;
+  align-content: center;
+  grid-template-rows: repeat(2, 270px);
+  gap: 20px;
+  background-color: #eae7e2;
+}
+
+#joinUsMessage {
+  width: 100%;
+  color: #d1d1c9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
+}
+
+.headerBottom {
+  display: flex;
+  flex-direction: column;
 }
 
 #spotlight3 {
-    display: none;
+  display: none;
 }
 
 nav a {
-    color: #fff;
-    display: block;
-    font-size: .9rem;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 0.9rem;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #708080;
+  background-color: #708080;
 }
