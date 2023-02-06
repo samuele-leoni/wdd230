@@ -153,6 +153,53 @@ main {
   display: none;
 }
 
+#hero p {
+  font-size: 1.7em;
+}
+
+section p, section a {
+  font-weight: bold;
+}
+
+#hero p, #hero a {
+  margin-left: 25px;
+}
+
+#join a {
+  justify-self: center;
+}
+
+section a {
+  font-size: 1.35em;
+  background-color: #36454f;
+  height: fit-content;
+  width: fit-content;
+  padding: 7px;
+  color: #d1d1c9;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section a:hover {
+  text-decoration: none;
+  background-color: #d1d1c9;
+  color: #36454f;
+}
+
+#join, #event, #weather, #news {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#hero {
+  background: url(../images/Milano-wide.jpg) no-repeat center center;
+  background-clip: padding-box;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+}
+
 .headerBottom {
   display: flex;
   flex-direction: column;

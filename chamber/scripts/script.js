@@ -42,8 +42,7 @@ window.onload = function () {
   document.getElementById("lastMod").innerHTML = oLastModif.toUTCString();
   document.getElementById("yearCopy").innerHTML = oLastModif.getFullYear();
 
-  if(now.getDay() == 1 || now.getDay() == 2)
-  {
+  if (now.getDay() == 1 || now.getDay() == 2) {
     document.getElementById("joinUsMessage").style.display = "block";
   }
 };
