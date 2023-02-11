@@ -23,18 +23,10 @@
         grid-template-rows: repeat(5, 200px);
     }
 
-    #join {
-        display: block;
-    }
-
     #hero {
         grid-column: 1/4;
     }
-
-    .pipe {
-        display: block;
-    }
-
+    
     #small {
         display: flex;
     }
