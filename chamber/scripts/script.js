@@ -5,7 +5,7 @@ function toggleNav() {
   nav.style.display = nav.style.display === "none" ? disp : "none";
 }
 
-window.onload = function () {
+window.onload = () => {
   let now = new Date(Date.now());
   document.getElementById("dateNow").innerHTML = now.toLocaleDateString(
     "en-US",

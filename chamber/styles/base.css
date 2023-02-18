@@ -68,6 +68,7 @@ footer a {
   color: black;
   text-decoration: none;
 }
+
 footer a:hover {
   text-decoration: none;
 }
@@ -84,10 +85,6 @@ a:active {
   border: none;
   padding: 5px 10px;
   border-radius: 15%;
-}
-
-#temperature {
-  font-size: 2em;
 }
 
 #navShow,
@@ -150,6 +147,15 @@ main {
 
 #hero p {
   font-size: 1.7em;
+
+  top: 15px;
+  left: 16px;
+}
+
+#hero a {
+
+  top: 75px;
+  left: 16px;
 }
 
 #temp-details div {
@@ -157,26 +163,51 @@ main {
   font-size: .8em;
 }
 
-section p, section h2, section h3{
+section p,
+section h2,
+section h3 {
   margin: 10px;
 }
 
-#temperature {
-  margin-top: 0;
-  margin-bottom: 0;
+.temp-class {
+  margin: 5px;
+  font-size: 2em;
+}
+
+#temp-div {
+  display: flex;
 }
 
 #weather p {
   margin-top: 0;
 }
 
-section p, section a {
+section p,
+section a {
   font-weight: bold;
 }
 
-#hero p, #hero a {
+#hero p,
+#hero a {
   margin-left: 25px;
+  z-index: 1;
+  position: absolute;
 }
+
+#hero picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+#hero picture img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
 
 #join a {
   justify-self: center;
@@ -217,7 +248,10 @@ p a {
   border-radius: 5px;
 }
 
-#join, #event, #weather, #news {
+#join,
+#event,
+#weather,
+#news {
   display: grid;
   justify-content: center;
   align-content: center;
@@ -225,9 +259,13 @@ p a {
 
 
 #hero {
+
+  /*
   background: url(../images/Milano-wide.jpg) no-repeat center center;
   background-clip: padding-box;
   background-size: cover;
+  */
+  position: relative;
   display: block;
   overflow: hidden;
 }
