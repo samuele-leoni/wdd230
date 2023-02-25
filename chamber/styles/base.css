@@ -1,12 +1,12 @@
 #logo {
   width: 215px;
-  height: 100px;
+  height: 100px
 }
 
 body {
   display: grid;
   font-family: "Source Sans Pro", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15pt;
+  font-size: 15pt
 }
 
 h1,
@@ -14,7 +14,7 @@ h2,
 h3,
 nav div a {
   font-size: 25pt;
-  font-family: Cabin, Calibri, "Trebuchet MS", sans-serif;
+  font-family: Cabin, Calibri, "Trebuchet MS", sans-serif
 }
 
 header,
@@ -23,58 +23,58 @@ footer {
   background-color: #d1d1c9;
   align-content: center;
   justify-content: center;
-  color: #171813;
+  color: #171813
 }
 
 #footer {
-  margin: 50px;
+  margin: 50px
 }
 
 footer {
   margin-top: 80px;
-  display: block;
+  display: block
 }
 
 .header {
   display: flex;
   width: fit-content;
-  margin: auto;
+  margin: auto
 }
 
 header {
   display: block;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 10px
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.4em
 }
 
 header h2 {
-  margin-top: -15px;
+  margin-top: -15px
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1em
 }
 
 h3,
 p {
-  font-size: 0.8em;
+  font-size: .8em
 }
 
 footer a {
   color: black;
-  text-decoration: none;
+  text-decoration: none
 }
 
 footer a:hover {
-  text-decoration: none;
+  text-decoration: none
 }
 
 a:active {
-  text-decoration: none;
+  text-decoration: none
 }
 
 #navShow {
@@ -84,35 +84,35 @@ a:active {
   align-self: flex-start;
   border: none;
   padding: 5px 10px;
-  border-radius: 15%;
+  border-radius: 15%
 }
 
 #navShow,
 nav,
 #joinUsMessage {
-  background-color: #36454f;
+  background-color: #36454f
 }
 
 nav {
-  text-align: center;
+  text-align: center
 }
 
 nav div {
-  flex: 1 1 auto;
+  flex: 1 1 auto
 }
 
-main section,
+main section, form,
 #spotlight {
   background-color: #eae7e2;
   border: #36454f81 1px solid;
   width: 100%;
   border-radius: 1%;
-  height: 100%;
+  height: 100%
 }
 
 #spotlight {
   display: block;
-  grid-row: 5/7;
+  grid-row: 5/7
 }
 
 main {
@@ -124,7 +124,7 @@ main {
   width: 90%;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 270px);
-  font-size: 0.9em;
+  font-size: .9em
 }
 
 #spotlight {
@@ -134,7 +134,7 @@ main {
   align-content: center;
   grid-template-rows: repeat(2, 270px);
   gap: 20px;
-  background-color: #eae7e2;
+  background-color: #eae7e2
 }
 
 #joinUsMessage {
@@ -142,56 +142,54 @@ main {
   color: #d1d1c9;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: none;
+  display: none
 }
 
 #hero p {
   font-size: 1.7em;
-
   top: 15px;
-  left: 16px;
+  left: 16px
 }
 
 #hero a {
-
   top: 75px;
-  left: 16px;
+  left: 16px
 }
 
 #temp-details div {
   display: flex;
-  font-size: .8em;
+  font-size: .8em
 }
 
 section p,
 section h2,
 section h3 {
-  margin: 10px;
+  margin: 10px
 }
 
 .temp-class {
   margin: 5px;
-  font-size: 2em;
+  font-size: 2em
 }
 
 #temp-div {
-  display: flex;
+  display: flex
 }
 
 #weather p {
-  margin-top: 0;
+  margin-top: 0
 }
 
 section p,
 section a {
-  font-weight: bold;
+  font-weight: 700
 }
 
 #hero p,
 #hero a {
   margin-left: 25px;
   z-index: 1;
-  position: absolute;
+  position: absolute
 }
 
 #hero picture {
@@ -199,7 +197,7 @@ section a {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 100%;
+  height: 100%
 }
 
 #hero picture img {
@@ -208,10 +206,8 @@ section a {
   min-height: 100%
 }
 
-
 #join a {
-  justify-self: center;
-
+  justify-self: center
 }
 
 section a {
@@ -222,19 +218,19 @@ section a {
   padding: 7px;
   color: #d1d1c9;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 5px
 }
 
 section a:hover {
   text-decoration: none;
   background-color: #d1d1c9;
-  color: #36454f;
+  color: #36454f
 }
 
 p a:hover {
   text-decoration: none;
   color: #d1d1c9;
-  background-color: #36454f;
+  background-color: #36454f
 }
 
 p a {
@@ -245,7 +241,7 @@ p a {
   padding: 0;
   color: black;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 5px
 }
 
 #join,
@@ -254,41 +250,96 @@ p a {
 #news {
   display: grid;
   justify-content: center;
-  align-content: center;
+  align-content: center
 }
 
-
 #hero {
-
-  /*
-  background: url(../images/Milano-wide.jpg) no-repeat center center;
-  background-clip: padding-box;
-  background-size: cover;
-  */
   position: relative;
   display: block;
-  overflow: hidden;
+  overflow: hidden
 }
 
 .headerBottom {
   display: flex;
-  flex-direction: column;
+  flex-direction: column
 }
 
 .no-small {
-  display: none;
+  display: none
 }
-
 
 nav a {
   color: #fff;
   display: block;
-  font-size: 0.9rem;
+  font-size: .9rem;
   padding: 15px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none
 }
 
 nav a:hover {
-  background-color: #708080;
+  background-color: #708080
+}
+
+#logo-link {
+  background: none
+}
+
+#discover {
+  display: block;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+  width: 70%;
+  height: 150px;
+}
+
+.left {
+  text-align: left;
+}
+
+form {
+  justify-self: center;
+  padding: 20px;
+  height: fit-content;
+}
+
+label {
+  text-align: left;
+}
+
+form input {
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+
+#joinusTitle {
+  text-align: center;
+  font-size: 2em;
+}
+
+#joinMain, #thankyou {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  width: 70%;
+}
+#thankyou {
+  font-size: 1.5em;
+}
+#thankyou p {
+  font-size: .6em;
+  width: 98%;
+  justify-self: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.radio {
+  width: auto;
+  margin: 0;
 }

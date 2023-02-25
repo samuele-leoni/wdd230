@@ -12,6 +12,10 @@
         border-radius: 5px;
     }
 
+    #discover picture:hover {
+        filter: blur(1px) grayscale(50%);
+    }
+
     body {
         font-size: 18pt;
     }

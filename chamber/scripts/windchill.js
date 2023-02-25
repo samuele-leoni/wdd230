@@ -12,7 +12,5 @@ function rng() {
     document.getElementById("windchill").innerHTML = windchill;
 }
 
-window.onload = () => {
-    rng();
-    setInterval(rng, 5000);
-}
+rng();
+setInterval(rng, 5000);

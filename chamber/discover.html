@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <title>Milan Chamber of Commerce | Discover</title>
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <a id="logo-link" href="./">
+                <img id="logo" src="images/logo.webp" alt="Milan Chamber of Commerce Logo" />
+            </a>
+            <div>
+                <h1>Milan</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+
+            <button id="navShow">
+                <img src="images/Hamburger_icon.svg" alt="hamburger menu icon" />
+            </button>
+        </section>
+        <section class="headerBottom">
+            <span id="dateNow"></span>
+            <span id="joinUsMessage">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+                p.m.</span>
+        </section>
+    </header>
+    <nav class="no-small">
+        <a href="discover.html">Discover</a>
+        <a href="#">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main id="discover">
+
+        <section class="left">
+            <picture>
+                <source srcset="images/Duomo-600.webp" media="(min-width: 68em)">
+                <source srcset="images/Duomo-400.webp" media="(min-width: 40em) and (max-width: 68em)">
+                <img src="https://via.placeholder.com/400x300" data-src="images/Duomo-250.webp" alt="Duomo">
+            </picture>
+        </section>
+        <section class="right">
+            <picture>
+                <source srcset="images/Galleria-600.webp" media="(min-width: 68em)">
+                <source srcset="images/Galleria-400.webp" media="(min-width: 40em) and (max-width: 68em)">
+                <img src="https://via.placeholder.com/400x300" data-src="images/Galleria-250.webp" alt="Galleria">
+            </picture>
+        </section>
+        <section class="left">
+            <picture>
+                <source srcset="images/Museo-del-900-600.webp" media="(min-width: 68em)">
+                <source srcset="images/Museo-del-900-400.webp" media="(min-width: 40em) and (max-width: 68em)">
+                <img src="https://via.placeholder.com/400x300" data-src="images/Museo-del-900-250.webp"
+                    alt="Museo del 900">
+            </picture>
+        </section>
+        <section class="right">
+            <picture>
+                <source srcset="images/palazzo-realemilano-600.webp" media="(min-width: 68em)">
+                <source srcset="images/palazzo-realemilano-400.webp" media="(min-width: 40em) and (max-width: 68em)">
+                <img src="https://via.placeholder.com/400x300" data-src="images/palazzo-realemilano-250.webp"
+                    alt="Palazzo Reale">
+            </picture>
+        </section>
+        <section class="left">
+            <picture>
+                <source srcset="images/Porta-Ticinese-600.webp" media="(min-width: 68em)">
+                <source srcset="images/Porta-Ticinese-400.webp" media="(min-width: 40em) and (max-width: 68em)">
+                <img src="https://via.placeholder.com/400x300" data-src="images/Porta-Ticinese-250.webp"
+                    alt="Porta Ticinese">
+            </picture>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <img id="logo" src="images/logo.webp" alt="Milan Chamber of Commerce Logo" />
+            <h2>Milan Chamber of Commerce</h2>
+            <h3>Via Larga 123<br />Milan, Italy 20100</h3>
+            <a href="mailto:info@milancc.org">
+                <h3>info@milancc.org</h3>
+            </a>
+            <h3>+(39) 333 1234 5678</h3>
+            <h3>Location Map</h3>
+            <hr />
+            <section id="small">
+                <p>
+                    &copy; <span id="yearCopy"></span> Milan Chamber of Commerce | WDD
+                    230 Project | Last updated: <span id="lastMod"></span> | Last Visit <span id="last-visit"></span>
+                </p>
+            </section>
+        </div>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+</body>
+
+</html>
