@@ -296,10 +296,6 @@ textarea {
   height: 150px;
 }
 
-.left {
-  text-align: left;
-}
-
 form {
   justify-self: center;
   padding: 20px;
@@ -335,11 +331,13 @@ form input {
   justify-self: center;
 }
 
-.right {
-  text-align: right;
-}
-
 .radio {
   width: auto;
   margin: 0;
+}
+
+#discover section {
+  display: flex;
+  margin-top: 10px;
+  text-align: left;
 }
