@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Source+Sans+Pro&display=swap');
+
+
+body,
+.paragraph {
+    margin: auto;
+    display: grid;
+    max-width: 1000px;
+    font-family: 'Source Sans Pro', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 25pt;
+    font-family: Cabin, Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    margin: 30px;
+    justify-self: center;
+    display: block;
+    font-size: .9em;
+}
+
+:root {
+    --back: rgb(0, 0, 0);
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0, 0%, 10%, 1);
+    --forelight: hsla(0, 0%, 100%, 1);
+    --border: hsl(0, 3%, 63%);
+    --borderlight: hsl(0, 0%, 72%);
+    --shadow: hsl(0, 0%, 50%);
+    --zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 7px var(--shadow);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: .85rem;
+}
+
+tr:first-child th, .blackHead,
+.highlight {
+    background-color: var(--back);
+    color: var(--forelight);
+    border: 1px solid var(--back);
+}
+
+th,
+td {
+    padding: 7px 15px;
+    border: 1px solid var(--borderlight);
+}
+
+th {
+    background-color: var(--back2);
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
