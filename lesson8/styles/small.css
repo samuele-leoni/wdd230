@@ -26,7 +26,7 @@ main {
 
 :root {
     --back: rgb(0, 0, 0);
-    --back2: hsla(150, 50%, 30%, .5);
+    --back2: hsl(0, 0%, 30%);
     --foredark: hsla(0, 0%, 10%, 1);
     --forelight: hsla(0, 0%, 100%, 1);
     --border: hsl(0, 3%, 63%);
@@ -65,6 +65,7 @@ td {
 th {
     background-color: var(--back2);
     font-size: larger;
+    color: var(--forelight);
 }
 
 td {
