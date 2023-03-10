@@ -3,7 +3,7 @@ const currentTemp = document.getElementById('current-temp');
 const weatherIcon = document.getElementById('weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const apiKey = '719dfa891fd073b35614ca92bef10365'
-const url = `http://api.openweathermap.org/data/2.5/weather?id=524901&appid=${apiKey}`
+const url = `https://api.openweathermap.org/data/2.5/weather?id=524901&appid=${apiKey}`
 
 function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
