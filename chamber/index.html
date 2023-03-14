@@ -67,20 +67,22 @@
     <section id="weather">
       <h2>Weather</h2>
       <div id="temp-div">
-        <h3 class="temp-class">⛅</h3>
-        <h3 class="temp-class" id="temperature">22</h3>
+        <figure class="temp-class">
+          <img src="" alt="" id="weather-icon" />
+        </figure>
+        <h3 class="temp-class" id="temperature"></h3>
         <h3 class="temp-class">°C</h3>
       </div>
-      <h3>Partly Cloudy</h3>
+      <h3 id="weather-text"></h3>
       <div id="temp-details">
         <div>
           <p>Wind Speed</p>
-          <p id="windspeed">5.6</p>
+          <p id="windspeed"></p>
           <p>km/h</p>
         </div>
         <div>
           <p>Wind Chill</p>
-          <p id="windchill">N/A</p>
+          <p id="windchill"></p>
           <p>W/m&#178;</p>
         </div>
       </div>
@@ -148,6 +150,7 @@
     </div>
   </footer>
 
+  <script src="scripts/weatherapi.js"></script>
   <script src="scripts/windchill.js"></script>
   <script src="scripts/lazyload.js"></script>
 </body>

@@ -4,13 +4,5 @@ function windchillCalc(t, windspeedKmh) {
 
 }
 
-function rng() {
-    let num = Math.floor(Math.random() * 20) - 2;
-    let temperature = document.getElementById("temperature");
-    temperature.innerHTML = num;
-    let windchill = windchillCalc(parseInt(temperature.innerHTML), parseInt(windspeed.innerHTML));
-    document.getElementById("windchill").innerHTML = windchill;
-}
-
-rng();
-setInterval(rng, 5000);
+let windchill = windchillCalc(parseInt(temperature.innerHTML), parseInt(windspeed.innerHTML));
+document.getElementById("windchill").innerHTML = windchill;
