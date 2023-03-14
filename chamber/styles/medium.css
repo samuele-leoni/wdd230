@@ -1,7 +1,7 @@
 @media only screen and (min-width: 40em) {
 
     nav {
-        
+
         display: flex;
         justify-content: center;
         border-radius: 5px;
@@ -30,7 +30,7 @@
     #hero {
         grid-column: 1/4;
     }
-    
+
     #small {
         display: flex;
     }
@@ -57,5 +57,17 @@
 
     #navShow {
         margin-left: 80px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .details {
+        margin-bottom: 20%;
+    }
+
+    .list .details {
+        width: 95%;
     }
 }

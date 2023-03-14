@@ -1,0 +1,76 @@
+{
+    "companies": [
+        {
+            "name": "Associazione \"Per Milano\"",
+            "address": "Via Vittor Pisani, 20, 20124 Milano, Italy",
+            "phone": "+39 02 93473025",
+            "website": "https://permilano.org/",
+            "logo": "https://permilano.org/wp-content/themes/permilano-wptheme/dist/img/logo_apm_2021.png",
+            "membership": "NP"
+        },
+        {
+            "name": "BLITZ BOVISA",
+            "address": "Via Enrico Cosenz, 44/4, 20157 Milano, Italy",
+            "phone": "+39 02 3760990",
+            "website": "http://www.blitzbovisa.com/",
+            "logo": "https://www.sihappy.it/contenuti/utenti/15309/0.11523600%201542015291_utente_image_thumb.jpg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "C.S.A.I. spa Centro Ser. Acciai Inox",
+            "address": "Via Fosse Ardeatine, 69, 20099 Sesto S. Giovanni (MI), Italy",
+            "phone": "+39 02 2493531",
+            "website": "http://www.csai.net/uk/indexuk.htm",
+            "logo": "http://www.csai.net/images/logotrasp.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "CANFOR UTENSILI srl",
+            "address": "Via Tridentina, 4, 20157 Milano, Italy",
+            "phone": "+39 02 33202263",
+            "website": "http://www.canfor.it/en/",
+            "logo": "http://www.canfor.it/templates/yootheme/cache/cb/Logo_CANFOR-cb5fd469.webp",
+            "membership": "Bronze"
+        },
+        {
+            "name": "CEMSA International srl",
+            "address": "Via Piemonte, 25, 20093 Cologno Monzese (MI), Italy",
+            "phone": "+39 02 2531744",
+            "website": "https://cemsa.it/en/",
+            "logo": "https://cemsa.it/wp-content/uploads/2022/10/logo.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "COPREN Engineering srl",
+            "address": "Via G. Di Vittorio, 7/9, 20042 Pessano con Bornago (MI), Italy",
+            "phone": "+39 02 95746067",
+            "website": "https://copren.eu/",
+            "logo": "https://copren.eu/wp-content/uploads/2019/10/logo_menu.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "MICROINGRANAGGI srl",
+            "address": "Via del Commercio, 29, 20090 Buccinasco (MI), Italy",
+            "phone": "+39 02 4840136",
+            "website": "https://microingranaggi.it/en/",
+            "logo": "https://microingranaggi.it/wp-content/uploads/2021/07/logo-microingranaggi-2021.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "O.M.A.S. srl",
+            "address": "Via G. Verga, 12, 20088 Rosate (MI), Italy",
+            "phone": "+39 02 90849026",
+            "website": "http://www.omasrosate.it/home.php",
+            "logo": "http://www.omasrosate.it/assets/images/omas_logo_menu.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "SGM Lektra srl",
+            "address": "Via Papa Giovanni XXIII, 49, 20053 Rodano (MI), Italy",
+            "phone": "+39 02 95328257",
+            "website": "https://sgm-lektra.com/en/",
+            "logo": "https://sgm-lektra.com/wp-content/uploads/2021/09/Marchio-SGM-Lektra_2021.svg",
+            "membership": "Silver"
+        }
+    ]
+}

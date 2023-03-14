@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/medium.css" />
     <link rel="stylesheet" href="styles/large.css" />
-    <title>Milan Chamber of Commerce | Thank you for Joining</title>
+    <title>Milan Chamber of Commerce | HomePage</title>
 </head>
 
 <body>
@@ -36,17 +36,20 @@
     </header>
     <nav class="no-small">
         <a href="discover.html">Discover</a>
-        <a href="directory.html">Directory</a>
+        <a href="#">Directory</a>
         <a href="join.html">Join</a>
         <a href="#">Contact</a>
     </nav>
 
-    <main id="thankyou">
-        <h2>Request Submitted</h2>
-        <p>Thank you for submitting your request you will soon receive an email containing information on how to
-            proceed.</p>
+    <main id="directory">
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <hr>
+        <article class="grid">
+        </article>
     </main>
-
     <footer>
         <div id="footer">
             <img id="logo" src="images/logo.webp" alt="Milan Chamber of Commerce Logo" />
@@ -66,6 +69,9 @@
             </section>
         </div>
     </footer>
+
+    <script src="scripts/directory.js"></script>
+    <script src="scripts/lazyload.js"></script>
 </body>
 
 </html>

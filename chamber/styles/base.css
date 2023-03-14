@@ -104,7 +104,8 @@ nav div {
   flex: 1 1 auto
 }
 
-main section, form,
+main section,
+form,
 #spotlight {
   background-color: #eae7e2;
   border: #36454f81 1px solid;
@@ -293,6 +294,12 @@ nav a:hover {
   text-align: center;
 }
 
+#discover section {
+  display: flex;
+  margin-top: 10px;
+  text-align: left;
+}
+
 textarea {
   resize: none;
   width: 70%;
@@ -320,14 +327,17 @@ form input {
   font-size: 2em;
 }
 
-#joinMain, #thankyou {
+#joinMain,
+#thankyou {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   width: 70%;
 }
+
 #thankyou {
   font-size: 1.5em;
 }
+
 #thankyou p {
   font-size: .6em;
   width: 98%;
@@ -339,8 +349,52 @@ form input {
   margin: 0;
 }
 
-#discover section {
+#directory {
+  display: block;
+}
+
+#directory img {
+  width: 90%;
+  height: fit-content;
+  margin: 20%;
+}
+
+.company-logos {
+  justify-content: center;
+  align-items: center;
   display: flex;
-  margin-top: 10px;
-  text-align: left;
+  width: 100%;
+  height: 65%;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid section {
+  display: block;
+  height: 100%;
+}
+
+.details {
+  margin: 20px;
+  display: flex;
+}
+
+.list .details {
+  width: 90%;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.list img {
+  display: none;
+}
+
+#directory a {
+  font-size: 1.3em;
+  align-self: center;
 }
