@@ -21,7 +21,7 @@ function displayResults(companyData) {
 		html += `
 			<section>
                 <div class="company-logos">
-				<img src="${data.logo}" alt="${data.name} logo">
+				<img src="${data.logo}" alt="${data.name} logo" loading="lazy">
                 </div>
                 <div class="details">
                     <div>
