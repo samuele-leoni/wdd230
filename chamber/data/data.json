@@ -17,14 +17,6 @@
             "membership": "Bronze"
         },
         {
-            "name": "C.S.A.I. spa Centro Ser. Acciai Inox",
-            "address": "Via Fosse Ardeatine, 69, 20099 Sesto S. Giovanni (MI), Italy",
-            "phone": "+39 02 2493531",
-            "website": "http://www.csai.net/uk/indexuk.htm",
-            "logo": "http://www.csai.net/images/logotrasp.png",
-            "membership": "Gold"
-        },
-        {
             "name": "CANFOR UTENSILI srl",
             "address": "Via Tridentina, 4, 20157 Milano, Italy",
             "phone": "+39 02 33202263",
@@ -63,6 +55,14 @@
             "website": "http://www.omasrosate.it/home.php",
             "logo": "http://www.omasrosate.it/assets/images/omas_logo_menu.png",
             "membership": "Silver"
+        },
+        {
+            "name": "S.C.A. srl",
+            "address": "Via Monza, 99/8, 20060 Gessate (MI), Italy",
+            "phone": "+39 02 95383855",
+            "website": "https://www.scaproduction.com/en-gb/home",
+            "logo": "https://lirp.cdn-website.com/cb0f1f6c/dms3rep/multi/opt/SIMBOLO-SCA-NEW2-1920w.jpg",
+            "membership": "Gold"
         },
         {
             "name": "SGM Lektra srl",
