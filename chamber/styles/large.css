@@ -56,4 +56,15 @@
     .grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .spotlight-company-logos {
+        max-height: 80px;
+    }
+
+    .spotlightLogos {
+        max-height: 80px;
+    }
+    .grid {
+        grid-template-rows: repeat(3, 1fr);
+      }
 }

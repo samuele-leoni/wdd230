@@ -41,11 +41,20 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <main id="joinMain">
-        <h2 id="joinusTitle">
-            Join Us
+    <main id="contactMain">
+        <h2>
+            Contact Us
         </h2>
+        <h3>
+            Fill out the form below to contact us!
+        </h3>
         <form method="get" action="thankyou.html">
+            <label for="companyName">
+                Company Name*
+            </label>
+            <br>
+            <input name="companyName" id="companyName" type="text" required>
+            <br>
             <label for="firstName">
                 First Name*
             </label>
@@ -58,12 +67,6 @@
             <br>
             <input name="lastName" id="lastName" type="text" required>
             <br>
-            <label for="businessPosition">
-                Business Position title
-            </label>
-            <br>
-            <input name="businessPosition" id="businessPosition" type="text" pattern="^[A-Za-z\s\-]+$">
-            <br>
             <label for="email">
                 Email*
             </label>
@@ -71,58 +74,17 @@
             <input name="email" id="email" type="email" required placeholder="example@mail.com">
             <br>
             <label for="phoneNumber">
-                Cellphone Number*
+                Cellphone Number
             </label>
             <br>
-            <input name="phoneNumber" id="phoneNumber" type="tel" required>
+            <input name="phoneNumber" id="phoneNumber" type="tel">
             <br>
-            <label for="businessName">
-                Business Name/Title*
+            <br>
+            <label for="message">
+                Message*
             </label>
             <br>
-            <input name="businessName" id="businessName" type="text" required>
-            <br>
-            <h2>
-                Please select your Membership level*
-            </h2>
-            <input type="radio" class="radio" id="membershipLevel1" name="membershipLevel" value="1">
-            <label for="membershipLevel1">
-                NP Membership
-            </label>
-            <span class="large">
-                For non profit organizations and there is no fee.
-            </span>
-            <br>
-            <input type="radio" class="radio" id="membershipLevel2" name="membershipLevel" value="2">
-            <label for="membershipLevel2">
-                Bronze Membership
-            </label>
-            <span class="large">
-                15% Discount on initiatives organized by us.
-            </span>
-            <br>
-            <input type="radio" class="radio" id="membershipLevel3" name="membershipLevel" value="3">
-            <label for="membershipLevel3">
-                Silver Membership
-            </label>
-            <span class="large">
-                20% Discount and included trainings
-            </span>
-            <br>
-            <input class="radio" type="radio" id="membershipLevel4" name="membershipLevel" value="4">
-            <label for="membershipLevel4">
-                Gold Membership
-            </label>
-            <span id="last" class="large">
-                30% Discount and included trainigs and advertisement
-            </span>
-            <br>
-            <br>
-            <label for="businessDescription">
-                Business Description
-            </label>
-            <br>
-            <textarea name="businessDescription" id="businessDescription"></textarea>
+            <textarea name="message" id="message" required></textarea>
             <br>
             <br>
             <input name="time" id="time" type="datetime-local" value="1970-01-01T00:00" hidden>
@@ -132,6 +94,18 @@
                 </label>
             </button>
         </form>
+        <h2>
+            Useful Information
+        </h2>
+        <h3>Milan Chamber of Commerce</h3>
+        <h3>Address: Via Larga 123, Milan, Italy 20100</h3>
+        <h3>Phone number: +(39) 02 12345678</h3>
+        <div id="emailLinkContact">
+            <h3>Email:&ThinSpace;</h3> <a href="mailto:info@milancc.org">
+                <h3>info@milancc.org</h3>
+            </a>
+        </div>
+        <h3>Opening hours:<br> Monday-Friday 8:00AM-5:00PM<br>Saturday 8:00AM-1:00PM<br> Sunday Closed</h3>
     </main>
     <footer>
         <div id="footer">

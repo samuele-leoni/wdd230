@@ -6,6 +6,7 @@
             "phone": "+39 02 93473025",
             "website": "https://permilano.org/",
             "logo": "https://permilano.org/wp-content/themes/permilano-wptheme/dist/img/logo_apm_2021.png",
+            "email": "info@permilano.org",
             "membership": "NP"
         },
         {
@@ -14,6 +15,7 @@
             "phone": "+39 02 3760990",
             "website": "http://www.blitzbovisa.com/",
             "logo": "https://www.sihappy.it/contenuti/utenti/15309/0.11523600%201542015291_utente_image_thumb.jpg",
+            "email": "info@blitzbovisa.com",
             "membership": "Bronze"
         },
         {
@@ -22,6 +24,7 @@
             "phone": "+39 02 33202263",
             "website": "http://www.canfor.it/en/",
             "logo": "http://www.canfor.it/templates/yootheme/cache/cb/Logo_CANFOR-cb5fd469.webp",
+            "email": "info@canfor.it",
             "membership": "Bronze"
         },
         {
@@ -30,6 +33,7 @@
             "phone": "+39 02 2531744",
             "website": "https://cemsa.it/en/",
             "logo": "https://cemsa.it/wp-content/uploads/2022/10/logo.png",
+            "email": "info@cemsa.it",
             "membership": "Silver"
         },
         {
@@ -38,6 +42,7 @@
             "phone": "+39 02 95746067",
             "website": "https://copren.eu/",
             "logo": "https://copren.eu/wp-content/uploads/2019/10/logo_menu.png",
+            "email": "marco.perego@copren.eu",
             "membership": "Silver"
         },
         {
@@ -46,6 +51,7 @@
             "phone": "+39 02 4840136",
             "website": "https://microingranaggi.it/en/",
             "logo": "https://microingranaggi.it/wp-content/uploads/2021/07/logo-microingranaggi-2021.png",
+            "email": "info@microingranaggi.it",
             "membership": "Gold"
         },
         {
@@ -54,6 +60,7 @@
             "phone": "+39 02 90849026",
             "website": "http://www.omasrosate.it/home.php",
             "logo": "http://www.omasrosate.it/assets/images/omas_logo_menu.png",
+            "email": "info@omasrosate.it",
             "membership": "Silver"
         },
         {
@@ -62,6 +69,7 @@
             "phone": "+39 02 95383855",
             "website": "https://www.scaproduction.com/en-gb/home",
             "logo": "https://lirp.cdn-website.com/cb0f1f6c/dms3rep/multi/opt/SIMBOLO-SCA-NEW2-1920w.jpg",
+            "email": "mail@scaproduction.com",
             "membership": "Gold"
         },
         {
@@ -70,6 +78,7 @@
             "phone": "+39 02 95328257",
             "website": "https://sgm-lektra.com/en/",
             "logo": "https://sgm-lektra.com/wp-content/uploads/2021/09/Marchio-SGM-Lektra_2021.svg",
+            "email": "info@sgm-lektra.com",
             "membership": "Silver"
         }
     ]
