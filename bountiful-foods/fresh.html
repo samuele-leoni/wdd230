@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="icon" href="favicon.ico">
+    <title>Bountiful Foods | HomePage</title>
+</head>
+
+<body>
+    <header>
+        <a class="nav-links" href="fresh.html">Fresh</a>
+        <a class="nav-links" href="index.html">
+            <img class="logo-img" src="images/logo.webp" alt="Bountiful Foods Logo" loading="lazy" />
+        </a>
+        <a class="nav-links" href="about.html">About Us</a>
+    </header>
+
+    <main>
+        <section id="form">
+
+            <h2>
+                Order your fruit mix!
+            </h2>
+            <h3>
+                Fill out the form below to make your personal fruit mix!
+            </h3>
+            <!-- Make this form use a js function for saving locally data about the drink -->
+            <form id="fruit-mix">
+                <label for="firstName">
+                    First Name*
+                </label>
+                <br>
+                <input name="firstName" id="firstName" type="text" required>
+                <br>
+                <label for="email">
+                    Email*
+                </label>
+                <br>
+                <input name="email" id="email" type="email" required placeholder="example@mail.com">
+                <br>
+                <label for="phoneNumber">
+                    Cellphone Number*
+                </label>
+                <br>
+                <input name="phoneNumber" id="phoneNumber" type="tel" required>
+                <br>
+                <label for="fruits">
+                    Fruits*
+                </label>
+                <br>
+                <!-- add 4.	three (3) select element inputs that are populated with the available fruit to put into a drink. -->
+                <div>
+                    <select name="fruits" id="fruit1" required>
+                    </select>
+                    <select name="fruits" id="fruit2" required>
+                    </select>
+                    <select name="fruits" id="fruit3" required>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <label for="special-instructions">
+                    Special Instructions
+                </label>
+                <br>
+                <textarea name="special-instructions" id="special-instructions"></textarea>
+                <br>
+                <br>
+                <input name="time" id="time" type="datetime-local" value="1970-01-01T00:00" hidden>
+                <button id="submit">
+                    <label for="submit">
+                        Submit
+                    </label>
+                </button>
+            </form>
+        </section>
+        <section id="output">
+            
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer-info">
+            <a class="nav-links" href="index.html">
+                <img class="logo-img" src="images/logo.webp" alt="Bountiful Foods Logo" loading="lazy" />
+            </a>
+            <div id="footer-business-info">
+                <h2>Bountiful Foods</h2>
+                <h3>2339 Acacia Ave, Carlsbad, CA 92008</h3>
+                <a href="mailto:info@bountifulfoods.com">
+                    <h3>info@bountifulfoods.com</h3>
+                </a>
+                <h3>+(1) 760-476-2004</h3>
+            </div>
+        </div>
+        <hr />
+        <section id="small">
+            <p>
+                &copy; <span id="yearCopy"></span> Bountiful Foods | WDD
+                230 Final Project | It has been <span id="lastVis"></span> | Last modified: <span id="lastMod"></span>
+            </p>
+        </section>
+    </footer>
+    <script src="scripts/lastmod.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/fruits.js"></script>
+</body>
+
+</html>

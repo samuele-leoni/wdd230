@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="icon" href="favicon.ico">
+    <title>Bountiful Foods | HomePage</title>
+</head>
+
+<body>
+    <header>
+        <a class="nav-links" href="fresh.html">Fresh</a>
+        <a class="nav-links" href="index.html">
+            <img class="logo-img" src="images/logo.webp" alt="Bountiful Foods Logo" loading="lazy" />
+        </a>
+        <a class="nav-links" href="about.html">About Us</a>
+    </header>
+    <main id="home">
+        <section id="hero">
+            <img src="images/hero.webp" alt="Bountiful Foods Hero Image" />
+            <div id="hero-text">
+                <h1>Bountiful Foods</h1>
+                <h2 class="no-small">We bring you freshness!</h2>
+                <h3>Follow us!</h3>
+                <a href="facebook.com">Facebook</a>
+                <a href="instagram.com">Instagram</a>
+                <a href="twitter.com">Twitter</a>
+            </div>
+        </section>
+        <section id="home-grid">
+            <section id="fresh-home">
+                <h2>Fresh</h2>
+                <a href="fresh.html">Fresh!</a>
+                <p>
+                    Create your own fruit drink mix with our fresh fruit selection!
+                    Click the link above to see our selection.
+                </p>
+            </section>
+            <section id="info-home">
+                <h2>Info</h2>
+                <p>One popular coastal area in southern California is Santa Monica. Known for its iconic pier, this beach town offers a wide range of activities such as surfing, biking, and shopping on the Third Street Promenade. With its warm weather and picturesque coastline, Santa Monica attracts millions of visitors each year.</p>
+            </section>
+            <section id="fruit-mix" class="flex">
+
+            </section>
+            <section id="weather">
+                <h2>Weather</h2>
+                <div class="flex" class="flex">
+                    <div id="current-weather">
+                        <div class="flex">
+                            <figure>
+                                <img src="" alt="" id="weather-icon" />
+                            </figure>
+                            <p id="temperature"></p>
+                        </div>
+                        <p id="weather-text"></p>
+                        <div class="flex">
+                            <p>Humidity&MediumSpace;</p>
+                            <p id="humidity"></p>
+                        </div>
+                    </div>
+                    
+                    <div id="forecast">
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-info">
+            <a class="nav-links" href="index.html">
+                <img class="logo-img" src="images/logo.webp" alt="Bountiful Foods Logo" loading="lazy" />
+            </a>
+            <div id="footer-business-info">
+                <h2>Bountiful Foods</h2>
+                <h3>2339 Acacia Ave, Carlsbad, CA 92008</h3>
+                <a href="mailto:info@bountifulfoods.com">
+                    <h3>info@bountifulfoods.com</h3>
+                </a>
+                <h3>+(1) 760-476-2004</h3>
+            </div>
+        </div>
+        <hr />
+        <section id="small">
+            <p>
+                &copy; <span id="yearCopy"></span> Bountiful Foods | WDD
+                230 Final Project | It has been <span id="lastVis"></span> | Last modified: <span id="lastMod"></span>
+            </p>
+        </section>
+    </footer>
+    <script src="scripts/home.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/lastmod.js"></script>
+</body>
+
+</html>

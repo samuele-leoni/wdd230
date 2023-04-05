@@ -1,0 +1,44 @@
+@media only screen and (min-width: 35em) {
+    #footer-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer-business-info {
+        justify-self: center;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #fresh {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #info-home {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #fruit-mix {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #weather {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    
+}

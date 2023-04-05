@@ -1,0 +1,22 @@
+@media only screen and (min-width: 60em) {
+    header, footer {
+        max-width: 80%;
+        border-radius: 5px;
+        padding: 1em;
+    }
+
+    #home-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #fruit-mix {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+}
